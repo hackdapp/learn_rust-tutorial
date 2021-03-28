@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+    {
+      "type": "cargo",
+      "subcommand": "build",
+      "problemMatcher": [
+        "$rustc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "label": "Rust: cargo build - learn_rust-tutorial"
+    },
+    {
+      "type": "cargo",
+      "subcommand": "run",
+      "runOptions": {
+      },
+      "problemMatcher": [
+        "$rustc"
+      ],
+      "label": "Rust: cargo run - learn_rust-tutorial"
+    }
+  ]
+}
